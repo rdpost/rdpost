@@ -147,6 +147,7 @@ def process_ticket_endpoint(ticket: TicketRequest):
     Opcionalmente puede incluir una imagen en base64.
     """
     try:
+        desc_imagen = None
         if ticket.image is not None:
             desc_imagen = analizar_imagen(ticket.image)
         respuesta = procesar_ticket(ticket.content, desc_imagen)
