@@ -276,7 +276,7 @@ def generate_draft():
             payload['image'] = data['image']
         
         response = requests.post(
-            'http://0.0.0.0:8000/process_ticket',
+            'http://127.0.0.1:8000/process_ticket',
             json=payload
         )
         

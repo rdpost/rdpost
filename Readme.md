@@ -40,20 +40,6 @@ source rdpost_env/bin/activate  # En Windows: rdpost_env\Scripts\activate
 # Instalar dependencias
 pip install -r requirements.txt
 ```
-
-
-### Backend
-```bash
-# Iniciar el servidor
-python backend/api.py
-```
-
-### Frontend
-```bash
-# Iniciar la aplicación
-python frontend/app.py
-```
-
 ## Configuración ⚙️
 1. Crea un archivo `.env` en el directorio raíz del backend basado en `.env.example`
 2. Configura las variables de entorno necesarias:
@@ -62,9 +48,21 @@ python frontend/app.py
    MISTRAL_API_KEY='your_api_key'
    ```
 
+## Iniciar el servidor
+### Backend
+```bash
+python backend/api.py
+```
+## Iniciar la aplicación
+### Frontend
+```bash
+python frontend/app.py
+```
+
+
 ## Uso 💡
-1. Asegúrate de que el backend esté corriendo en `http://localhost:8000`
-2. Inicia el frontend que estará disponible en `http://localhost:5000`
+1. Inicia el frontend que estará disponible en `http://localhost:5000`
+2. Asegúrate de que el backend esté corriendo en `http://localhost:8000`
 3. Accede a la documentación de la API en `http://localhost:8000/docs`
 
 ## API Documentation 📚
