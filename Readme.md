@@ -28,7 +28,7 @@ Gestiona tus tickets de RDPost. Automatiza los procesos de atención al cliente 
 
 ### Clonar el repositorio
 ```bash
-git clone https://github.com/usuario/proyecto.git
+git clone https://github.com/rdpost/rdpost
 
 # Ir al directorio del proyecto
 cd rdpost
